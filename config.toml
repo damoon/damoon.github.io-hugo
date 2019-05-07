@@ -1,0 +1,6 @@
+title       = "My New Hugo Site"
+theme       = "hugo-theme-pixyll"
+enableEmoji = true
+
+[blackfriday]
+  angledQuotes = true
