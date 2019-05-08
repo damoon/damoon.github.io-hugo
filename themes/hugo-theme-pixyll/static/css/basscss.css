@@ -120,15 +120,7 @@ strong, .bold {
 }
 
 .measure {
-  max-width: 48rem;
-}
-
-.measure-narrow {
-  max-width: 32rem;
-}
-
-.measure-wide {
-  max-width: 60rem;
+  max-width: 72rem;
 }
 
 .leading-1 {
