@@ -1,0 +1,16 @@
+baseURL      = "/"
+title        = "My New Hugo Site"
+theme        = "hugo-theme-learn"
+enableEmoji  = true
+relativeURLs = true
+canonifyUrls = true
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[params]
+  showVisitedLinks = true
+  disableBreadcrumb = false
+  disableNextPrev = false
+  # Change default color scheme with a variant one. Can be "red", "blue", "green".
+  themeVariant = "green"
