@@ -1,6 +1,13 @@
 title       = "My New Hugo Site"
 theme       = "hugo-theme-pixyll"
 enableEmoji = true
+relativeURLs           = true
+canonifyUrls           = true
 
 [blackfriday]
   angledQuotes = true
+
+[params]
+  search_engine    = true
+  twitter_username = "davedamoon"
+  paginate         = 5
