@@ -14,4 +14,5 @@ container: ##@setup build container image and execute
 
 .PHONY: publish
 publish: ##@publish generate into docs folder
-	hugo
+	hugo --baseURL https://damoon.github.io/
+	cd public && git add . && git commit -m "automatic commit" && git push origin master
